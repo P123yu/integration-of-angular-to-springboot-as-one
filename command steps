@@ -1,0 +1,73 @@
+pyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\piyush_kumar\Downloads\ang-spring\ang-spring> npm run build
+
+> springangular@0.0.0 build
+> ng build --watch
+
+An unhandled exception occurred: Cannot find builder "@angular/build:browser".
+See "C:\Users\PIYUSH~1\AppData\Local\Temp\ng-wevNR3\angular-errors.log" for further details.
+PS C:\Users\piyush_kumar\Downloads\ang-spring\ang-spring> npm run build
+
+> springangular@0.0.0 build
+> ng build --watch
+
+Error: Could not find the '@angular-devkit/build-angular:browser' builder's node package.
+PS C:\Users\piyush_kumar\Downloads\ang-spring\ang-spring> npm install --save-dev @angular-devkit/build-angular
+
+added 359 packages, and audited 988 packages in 46s
+
+159 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\piyush_kumar\Downloads\ang-spring\ang-spring> npm install
+
+up to date, audited 988 packages in 3s
+
+159 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\piyush_kumar\Downloads\ang-spring\ang-spring> npm run build                                       
+
+> springangular@0.0.0 build
+> ng build --watch
+
+Error: Schema validation failed with the following errors:
+  Data path "" must have required property 'index'.
+PS C:\Users\piyush_kumar\Downloads\ang-spring\ang-spring> npm run build
+
+> springangular@0.0.0 build
+> ng build --watch
+
+Error: Schema validation failed with the following errors:
+  Data path "" must have required property 'index'.
+PS C:\Users\piyush_kumar\Downloads\ang-spring\ang-spring> npm run build
+
+> springangular@0.0.0 build
+> ng build --watch
+
+✔ Browser application bundle generation complete.
+✔ Index html generation complete.
+
+Initial chunk files           | Names         |  Raw size | Estimated transfer size
+main.3510549797394bc5.js      | main          | 208.11 kB |                56.78 kB
+polyfills.46f848aed41636f2.js | polyfills     |  34.85 kB |                11.31 kB
+runtime.7ec84f2d48f97854.js   | runtime       | 904 bytes |               506 bytes
+styles.ef46db3751d8e999.css   | styles        |   0 bytes |                       -
+
+                              | Initial total | 243.87 kB |                68.60 kB
+
+Build at: 2025-06-16T05:38:44.482Z - Hash: d18e01edcee21e1c - Time: 18231ms
+✔ Browser application bundle generation complete.
+✔ Index html generation complete.
+
+
+
+4 unchanged chunks
+
+Build at: 2025-06-16T05:38:44.915Z - Hash: d18e01edcee21e1c - Time: 902ms
+
